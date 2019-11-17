@@ -25,7 +25,7 @@ def get_news(category):
     return news_results
 
 
-# def process_sources(news_list):
+def process_sources(news_list):
     '''
     function that transforms the results into a list of objects
     
@@ -33,7 +33,7 @@ def get_news(category):
         news_list :a list of dictionaries that contain news details
 
     Returns:
-        news_results: a list of movie objects
+        news_results: a list of news objects
 
     '''
     news_results =[]
