@@ -1,0 +1,10 @@
+{% macro displayNewsList(news_list) %}
+    {% for report in news_list %}
+        <div class="col-md-3 card">
+            <h4>{{report.name}}</h4>
+            <p> {{report.description}} </p>
+
+        </div>
+
+    {% endfor %}
+{% endmacro %}

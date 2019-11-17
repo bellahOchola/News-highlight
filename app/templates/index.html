@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% import 'macros.html' as macro %}
+
+{% block content %}
+<h3>General News</h3>
+<p>
+    {{macro.displayNewsList(general)}}
+</p>
+{% endblock %}
