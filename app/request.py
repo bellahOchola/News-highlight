@@ -13,8 +13,8 @@ def get_news(category):
     get_url = base_url.format(category,api_key)
 
     with urllib.request.urlopen(get_url) as url:
-        # get_data = url.read()
-        # get_response = json.loads(get_data)
+        get_data = url.read()
+        get_response = json.loads(get_data)
 
         news_results = None
 
@@ -25,7 +25,7 @@ def get_news(category):
     return news_results
 
 
-def process_sources(news_list):
+# def process_sources(news_list):
     '''
     function that transforms the results into a list of objects
     
