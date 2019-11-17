@@ -6,7 +6,7 @@ from .models import News
 api_key = app.config['NEWS_API_KEY']
 base_url = app.config["NEWS_BASE_URL"]
 
-def get_news(category):
+# def get_news(category):
     '''
     function that gets the json response
     '''
