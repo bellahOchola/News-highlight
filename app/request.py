@@ -6,15 +6,15 @@ from .models import News
 api_key = app.config['NEWS_API_KEY']
 base_url = app.config["NEWS_BASE_URL"]
 
-# def get_news(category):
+def get_news(category):
     '''
     function that gets the json response
     '''
     get_url = base_url.format(category,api_key)
 
     with urllib.request.urlopen(get_url) as url:
-        get_data = url.read()
-        get_response = json.loads(get_data)
+        # get_data = url.read()
+        # get_response = json.loads(get_data)
 
         news_results = None
 
