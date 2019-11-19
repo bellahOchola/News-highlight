@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        {%for artiq in artiq%}
+        <div class="col-md-4 card">
+            <img src="{{artiq.publishedAt}}" class="card-img-top" alt="..." style="width:100%; height:50%">
+            <div class="card-body">
+              <h5 class="card-title">{{artiq.author}}</h5>
+              <p class="card-text">{{artiq.description}}</p>
+              <p class="card-text">{{artiq.urlToImage}}</p>
+              <a href="{{artiq.url}}" class="btn btn-primary">view more</a>
+            </div>
+        </div>
+            
+        {%endfor%}
+    </div>
+</div>
+{% endblock %}
+
