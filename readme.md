@@ -1,8 +1,8 @@
-# Password Locker.
-#### This application enables user access their password credentials 10/11/2019
+# News Highlight.
+#### This application enables user view different news sources and articles 18/11/2019
 #### bellahOchola
 ## Description
-This application enables user login to the site or simply create an account if they do not have any. After logging in they are given options of viewing their already existing credentials,creating a new  credential account , finding the content of an account using that accounts name or simply deleting their credentials if they no longer need them.
+on the landing/home page there is a list of general news sources. The card contains the source time and a small description and a button that navigates to the articles page. In the articles page there is an image and description of the selected article and a view more button that navigates to the sources homepage.
 ## Setup/Installation Requirements
 * open the terminal in your desktop
 * navigate to where you want to save the folder
@@ -10,7 +10,7 @@ This application enables user login to the site or simply create an account if t
 * clone this repo to your pc
 * run it on the terminal.
 ## BDD
-
+on the landing/home page there is a list of general news sources. The card contains the source time and a small description and a button that navigates to the articles page. In the articles page there is an image and description of the selected article and a view more button that navigates to the sources homepage.
 ## Technologies Used
 * Flask - used in the creation of the app.
 ## Support and contact details
